@@ -1,0 +1,49 @@
+[[package]]
+name = "bardolph"
+version = "0.1.5"
+description = "Simple scripting language for LIFX lights"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+lifxlan = "*"
+
+[[package]]
+name = "bitstring"
+version = "4.0.1"
+description = "Simple construction, analysis and modification of binary data."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
+name = "ifaddr"
+version = "0.2.0"
+description = "Cross-platform network interface and IP address enumeration library"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "lifxlan"
+version = "1.2.7"
+description = "API for local communication with LIFX devices over a LAN."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+bitstring = "*"
+ifaddr = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "db0aa35f0bd5bbf89c9108514052581066123d6ed2bc0dc94986d0012fa2e514"
+
+[metadata.files]
+bardolph = []
+bitstring = []
+ifaddr = []
+lifxlan = []
